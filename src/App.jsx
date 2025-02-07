@@ -34,7 +34,7 @@ function App() {
       setNoScale(0.7)
     }
     if(count === 4){
-      setMessage("Ye LAST last chance hai!!!");
+      setMessage("Ye LAST wala last chance hai!!!");
       setUrl("https://i.pinimg.com/originals/ee/d0/96/eed09666b043c8eba1d526d80a6412e9.gif");
       setYesScale(3);
       setNoScale(0.5)
@@ -52,7 +52,7 @@ function App() {
     <>
       <div className="bg-pink-100 w-full h-screen flex justify-center items-center poppins-regular">
         <div className="bg-indigo-200 w-[700px] h-[450px] rounded-3xl flex flex-col justify-center items-center gap-10">
-          <h1 className="text-white text-2xl">
+          <h1 className="text-white text-2xl text-center">
             {message}
           </h1>
           <img src={url} alt="" className="h-40"/>
