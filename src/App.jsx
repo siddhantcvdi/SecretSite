@@ -43,7 +43,8 @@ function App() {
       setMessage("Maan jao naaaa cutieee!!!🤗");
       setUrl("https://media.tenor.com/XZGm-kKjguMAAAAC/kawaii-bunny.gif")
       setYesScale(4);
-      setNoScale(0)
+      setNoScale(0)  
+      noRef.current.remove()
     }
   }
 
