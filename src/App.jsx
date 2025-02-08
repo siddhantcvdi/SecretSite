@@ -61,7 +61,7 @@ function App() {
             style={{scale: yesScale}}
             ref={yesRef}
             onClick={()=>{
-              setMessage("Hehe...Knew it!!😍");
+              setMessage("Hehe...Knew it!!!😉");
               setUrl("https://i.pinimg.com/originals/fa/b6/9d/fab69df83b7e6f4eec7bcec555df0844.gif")
               yesRef.current.className = "hidden"
               noRef.current.className = "hidden"
